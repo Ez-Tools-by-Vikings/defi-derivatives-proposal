@@ -24,8 +24,10 @@ He then sells the long eToken pair to Alice for a premium and keeps the short eT
 
 If Alice does nothing now (which is usually what happens in these markets) and at the time of expiry price reaches 1900$ they can individually claim:
 
-Long eToken - 100/1900 = 0.05263 ETH<br>
+```
+Long eToken - 100/1900 = 0.05263 ETH
 Short eToken - 1800/1900 = 0.9473 ETH
+```
 
 We would have charged commision at mint and sale of these tokens.
 
@@ -37,11 +39,15 @@ Let's say Alice was a savvy trader, using our system she could then use the long
 
 Let's say primary eTokens were token0 and the ones Alice created were token1 and at maturity ETH price goes to 2000$
 
-Short eToken0 - 1800/2000 - 0.9 ETH<br>
-Long eToken0 - 200/2000 - 0.1 ETH
+```
+Short eToken0 - 1800/2000 = 0.9 ETH
+Long eToken0 - 200/2000 = 0.1 ETH
+```
 
-Short eToken1 = (100/200)/2000 = 0.05 ETH<br>
+```
+Short eToken1 = (100/200)/2000 = 0.05 ETH
 Long eToken1 = (100/200)/2000 = 0.05 ETH
+```
 
 Alice had effectively created a call spread for herself without the need to provide excess collateral.
 
